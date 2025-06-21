@@ -51,7 +51,7 @@ def login():
     conn.close()
 
     if user:
-        return 'Welcome, admin! Flag: CyberXbytes{2bbf311c73e9c87291783251049a3a95}'
+        return 'Welcome, admin! Flag: CyberXbytes{TryIt_on_the_server}'
     else:
         return "Invalid credentials."
 
